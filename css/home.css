@@ -1,23 +1,20 @@
 
 .page{
-    background-color: white;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 1000px;
-    margin-top: 10px;
-    padding: 0px;
+     
+    
 }
+
     
 
 .entete{
+    background-color: white;
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    margin-top:auto;
+    padding-top:2px;
     width: 1440px;
-    height: 614px;
+    height: 75px;
+    align-items: center;
 }
 
 
@@ -39,15 +36,36 @@ a{
 }
 h2{
     
+    font-family: Arial, Helvetica, sans-serif;
     
     
 }
 
 .sousentete{
+ justify-content: center;
+padding: 30px;
+align-items: center;
+text-align: center;
+padding-left: 40px;
+ background-color: rgba(255, 255, 255, 0.834);
+ width: 500px;
+margin: 200px;
+margin-left: 400px;
+margin-right: 50px;
  
+
 }
 .page2{
-background-image: url();
+background-image: url('../Image/bg-image.jpg');
+background-size:cover ;
+width: 1400px;
+height: 705px;
+padding:40px;
+margin-right:40 px;
+padding-left: 50px;
+padding-right: 90px;
+padding-top: 40px;
+overflow: hidden;
 }
 button{
     background-color: green;
