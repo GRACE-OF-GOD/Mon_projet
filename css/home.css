@@ -5,26 +5,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 1000px;
+    margin-top: 10px;
+    padding: 0px;
 }
     
 
 .entete{
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 50px;
     margin-top:auto;
-
-
-
-
+    width: 1440px;
+    height: 614px;
 }
+
+
+
 ul{
     display: flex;
     justify-content: space-between;
     gap: 50px;
      list-style: none;
      padding-left: 0;
-     color: black;
+    color: black;
      
     
 }
@@ -33,30 +37,17 @@ a{
      text-decoration: none;
      color: black;
 }
-.li{
+h2{
+    
     
     
 }
 
 .sousentete{
-justify-content: center;
-align-items: center;
-background-color: rgba(234, 241, 241, 0.745);
-width: 500px;
-height: 190px;
-margin-left: 460px;
-margin-top: 30px;
-text-align: center;
-padding: 40px;
-
+ 
 }
 .page2{
-    background-image: url(bg-image.jpg ) ;
-    width:1450px ;
-    height: 614px;
-    padding-top: 200px;
-    margin-right: 40px;
-    margin-top: 1px;
+background-image: url();
 }
 button{
     background-color: green;
@@ -65,7 +56,16 @@ button{
 }
 .logo{
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
+
 
 }
- 
+ .image{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 35px;
+    height: 20px;
+
+
+ }
